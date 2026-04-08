@@ -1,0 +1,63 @@
+{
+  "traffic": [
+    {
+      "_id": "downtown",
+      "avg_speed": 45.5,
+      "avg_congestion": 0.72,
+      "incident_count": 2
+    },
+    {
+      "_id": "suburban",
+      "avg_speed": 62.3,
+      "avg_congestion": 0.45,
+      "incident_count": 0
+    },
+    {
+      "_id": "highway",
+      "avg_speed": 78.9,
+      "avg_congestion": 0.28,
+      "incident_count": 0
+    }
+  ],
+  "hospitals": [
+    {
+      "_id": "HOSPITAL_001",
+      "avg_occupancy": 78.5,
+      "avg_er_wait": 45,
+      "critical_count": 0
+    },
+    {
+      "_id": "HOSPITAL_002",
+      "avg_occupancy": 65.2,
+      "avg_er_wait": 30,
+      "critical_count": 0
+    },
+    {
+      "_id": "HOSPITAL_003",
+      "avg_occupancy": 82.1,
+      "avg_er_wait": 60,
+      "critical_count": 0
+    }
+  ],
+  "supply": [
+    {
+      "_id": "WH_NORTH",
+      "avg_inventory": 72.5,
+      "avg_eta": 12.5,
+      "critical_count": 0
+    },
+    {
+      "_id": "WH_SOUTH",
+      "avg_inventory": 68.3,
+      "avg_eta": 14.2,
+      "critical_count": 0
+    },
+    {
+      "_id": "WH_CENTRAL",
+      "avg_inventory": 81.9,
+      "avg_eta": 10.8,
+      "critical_count": 0
+    }
+  ],
+  "alerts": []
+}
